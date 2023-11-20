@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans,serif;
+}
+body{
+   background: lightslategray;
+   display: flex;
+   justify-content: center;
+   align-items: center;lightslategray
+   min-height: 100vh;
+}
+.container{
+   position: relative;
+   width: 100%;
+   min-width: 1000px;
+   min-height: 1000px;
+   background: #fff;
+   margin: 50px;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   box-shadow: 0px 35p 55px rgba(0,0,0,0.2);
+}
+.container .left{
+   position: relative;
+   background: lightpink;
+   padding: 40px;
+}
+.container .right{
+   position: relative;
+   background: #f0f0f0;
+   padding: 40px;
+}
+profileText{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+   border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+profileText .profileIng{
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+profiletext profilelog ing{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100s;
+   object-fit: cover;
+}
+.profileText h2{
+   color: #fff;
+   font-size: 1.5em;
+   margin-top: 20px;
+   text-transform: uppercase;
+   text-align: center 1.4em;
+   font-weight: 600;
+   line-height: 1.4em;
+}
+.profileText h2 span{ 
+   font-size: 0.7em;
+   font-weight: 300;
+}
+Info{
+    padding: 40px;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.40 20px;
+    margin-bottom: 20px;
+}
+Info ul li{
+    position: relative;
+    list-style: none; margin: 10px 0;
+    cursor: pointer;
+}
+Info education h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+}
+.Info .education h4{
+    color: #fff;
+}
+img{
+	max-width: 80%;
+	border-radius: 50%;
+}
+.skill .box{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	justify-content: center;
+	align-items: center;
+}
+.skils .box h4{
+	text-transform: uppercase;
+	color: #848c90;
+	font-weight: 500;
+}
+.skills .box .percent{
+	position: relative;
+	width:	100%;
+	height:	100%;
+	background: #f0f0f0;
+}
